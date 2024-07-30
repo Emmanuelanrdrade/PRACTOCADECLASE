@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejercicio practica de clase 7</title>
+</head>
+<body>
+  <h2>Agregar un producto al carrito</h2>
+<form method="post" action="ejerciciopractica2.php">
+    <label for="producto">Producto:</label>
+    <input type="text" id="producto" name="producto" required>
+    <br>
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" name="precio" step="0.01" required>
+    <br>
+    <h2>Eliminar un producto del carrito</h2>
+    <label for="productoEliminar">Producto a eliminar:</label>
+    <input type="text" id="productoEliminar" name="productoEliminar" required>
+    <br>
+    <input type="submit" name="accion" value="enviardatos">
+</form>
+</body>
+</html>
